@@ -1,4 +1,4 @@
-# Phansible Role: Apache
+# Phansible Role: Beanstalkd
 
 [![Build Status](https://travis-ci.org/phansible/role-beanstalkd.svg?branch=master)](https://travis-ci.org/phansible/role-beanstalkd)
 
