@@ -47,3 +47,4 @@
 
 - name: Ensure service is running, and is configured to start on boot.
   service: name=beanstalkd enabled=yes state=started
+  changed_when: false
