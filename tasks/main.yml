@@ -19,7 +19,7 @@
   when: installed_beanstalkd_version.stdout != beanstalkd.version
 
 - name: Unarchive.
-  unarchive: src="/tmp/beanstalkd-{{ beanstalkd.version }}.tar.gz" dest="/tmp"
+  unarchive: src="/tmp/beanstalkd-{{ beanstalkd.version }}.tar.gz" dest="/tmp" copy="no"
   when: installed_beanstalkd_version.stdout != beanstalkd.version
 
 - name: Make.
