@@ -1,4 +1,4 @@
 ---
-
 - name: restart beanstalkd
-  service: name=beanstalkd state=restarted
+  become: yes
+  systemd: name=beanstalkd state=restarted daemon_reload=yes
