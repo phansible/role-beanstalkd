@@ -1,6 +1,6 @@
 # Phansible Role: Beanstalkd
 
-[![Build Status](https://travis-ci.org/phansible/role-beanstalkd.svg?branch=master)](https://travis-ci.org/phansible/role-beanstalkd)
+[![CI](https://github.com/phansible/role-beanstalkd/actions/workflows/ci.yml/badge.svg)](https://github.com/phansible/role-beanstalkd/actions/workflows/ci.yml)
 
 An Ansible Role that installs [Beanstalkd](http://kr.github.io/beanstalkd/) on Ubuntu specifically created with [Phansible](http://phansible.com/) in mind.
 
